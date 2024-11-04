@@ -1,19 +1,3 @@
-output "private_subnet_1_cidr_block" {
-  value = aws_subnet.private_1.cidr_block
-}
-
-output "private_subnet_2_cidr_block" {
-  value = aws_subnet.private_2.cidr_block
-}
-
-output "public_subnet_1_id" {
-  value = aws_subnet.public_1.id
-}
-
-output "public_subnet_2_id" {
-  value = aws_subnet.public_2.id
-}
-
-output "db_subnet_group_name" {
-  value = aws_db_subnet_group.ps_db_subnet_group.name
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:89f9cc975150834d6121366ca6840a8b9e6b2a982c2eda6f6f323a8bb7b2ca3a
+size 388

@@ -1,27 +1,3 @@
-variable "load_balancer_arn" {
-  type = string
-}
-
-variable "target_group_name" {
-  type    = string
-  default = "ps-ec2-target-group"
-}
-
-variable "vpc_id" {
-  type = string
-}
-
-variable "listener_port" {
-  type    = number
-  default = 80
-}
-
-variable "protocol" {
-  type    = string
-  default = "HTTP"
-}
-
-variable "health_check_path" {
-  type    = string
-  default = "/"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:50e169192dd4de5d33c22c8c475eb618600d95ca135fc7c92e8eca543a9a5005
+size 371

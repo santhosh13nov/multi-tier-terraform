@@ -1,12 +1,3 @@
-resource "aws_route_table" "public" {
-  vpc_id = var.vpc_id
-
-  route {
-    cidr_block = "0.0.0.0/0"
-    gateway_id = var.internet_gateway_id
-  }
-
-  tags = {
-    Name = "ps-public-route-table"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7d1031a1479911887b218e57e60ad4c49aacea2def318075d5f9bf04fda325f7
+size 198

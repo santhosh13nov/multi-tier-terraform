@@ -1,12 +1,3 @@
-resource "aws_instance" "main" {
-  count           = var.instance_count
-  ami             = var.ami_id
-  instance_type   = var.instance_type
-  subnet_id       = var.subnet_id
-  security_groups = var.security_group_ids
-  user_data       = var.user_data
-
-  tags = {
-    Name = "ps-ec2-instance-${count.index + 1}"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8d2913c45408ace227377d624d129d944059fdef8e2c976cdd9e5c5c594c6bad
+size 318

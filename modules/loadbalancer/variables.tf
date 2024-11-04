@@ -1,22 +1,3 @@
-variable "load_balancer_name" {
-  type    = string
-  default = "ps-application-lb"
-}
-
-variable "internal" {
-  type    = bool
-  default = false
-}
-
-variable "load_balancer_type" {
-  type    = string
-  default = "application"
-}
-
-variable "security_group_ids" {
-  type = list(string)
-}
-
-variable "subnet_ids" {
-  type = list(string)
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6bafbc3e12444b7c6bc16c75d30204c6c8fa9989809df03192a3b7568b142db9
+size 331
