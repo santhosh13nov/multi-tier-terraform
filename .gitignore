@@ -6,3 +6,5 @@ terraform.tfstate.backup
 # Uncomment the following lines if you want to ignore .env files
 .env
 .env.*
+
+.terraform/
