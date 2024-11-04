@@ -7,4 +7,5 @@ terraform.tfstate.backup
 .env
 .env.*
 
+#Ignore .terraform directory
 .terraform/
